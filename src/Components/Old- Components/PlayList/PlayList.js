@@ -1,13 +1,12 @@
 import React from "react";
+import "../css/PlayList.css";
 import TrackList from "../TrackList/TrackList";
-import "./Playlist.css";
 
-class Playlist extends React.Component {
+class PlayList extends React.Component {
   constructor(props) {
     super(props);
     this.handleNameChange = this.handleNameChange.bind(this);
   }
-
   handleNameChange(event) {
     this.props.onNameChange(event.target.value);
   }
@@ -16,10 +15,15 @@ class Playlist extends React.Component {
     return (
       <div className="Playlist">
         <input
-          defaultValue={this.props.name}
+          name="playListName"
+          value={this.props.playListName}
           onChange={this.handleNameChange}
         />
-        <TrackList tracks={this.props.tracks} onRemove={this.props.onRemove} />
+        <TrackList
+          tracks={this.props.playListTracks}
+          onAction={this.props.onAction}
+          button="-"
+        />
         <button className="Playlist-save" onClick={this.props.onSave}>
           SAVE TO SPOTIFY
         </button>
@@ -27,5 +31,4 @@ class Playlist extends React.Component {
     );
   }
 }
-
-export default Playlist;
+export default PlayList;

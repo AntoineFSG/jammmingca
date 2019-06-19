@@ -1,0 +1,16 @@
+.spotify-style {
+  color: #1db954;
+  font-weight: 600;
+  background: #191414;
+  border-radius: 12px;
+  border: 0px;
+  margin-top: 2rem;
+  padding: 0.5rem;
+}
+.spotify-logo {
+  height: 1.525rem;
+  margin: 0.15rem;
+}
+.spotify-welcome {
+  padding-top: 2.5rem;
+}

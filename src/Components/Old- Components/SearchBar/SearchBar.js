@@ -1,5 +1,5 @@
 import React from "react";
-import "./SearchBar.css";
+import "../css/SearchBar.css";
 
 class SearchBar extends React.Component {
   constructor(props) {
@@ -9,17 +9,19 @@ class SearchBar extends React.Component {
   }
 
   search(term) {
-    this.props.onSearch(term);
+    this.props.onSearch = term;
   }
   handleTermChange(event) {
-    this.search(event.target.value);
+    this.props.onSearch(event.target.value);
   }
-
   render() {
     return (
       <div className="SearchBar">
-        <h2>Search for a song</h2>
-        <input onChange={this.handleTermChange} placeholder="Type..." />
+        <input
+          onChange={this.handleTermChange}
+          placeholder="Enter A Song, Album, or Artist"
+        />
+        <button className="SearchButton">SEARCH</button>
       </div>
     );
   }
