@@ -24,7 +24,7 @@
   outline: none;
 }
 
-.SearchBar a {
+.SearchBar button {
   cursor: pointer;
   width: 8.11rem;
   padding: 0.77rem 0;
@@ -32,6 +32,7 @@
   background-color: #010c3f;
   text-align: center;
   font-size: 0.833rem;
+  color: white;
   transition: background-color 0.25s;
 }
 

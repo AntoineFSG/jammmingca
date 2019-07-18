@@ -19,7 +19,7 @@ class Login extends React.Component {
     if (Spotify.loggedIn === true) {
       return (
         <div>
-          <h2 className="spotify-welcome">Welcome {this.state.userName}</h2>
+          <div className="spotify-welcome">Welcome {this.state.userName}</div>
           <button className="spotify-style" onClick={this.props.handleClick}>
             Log Out{" "}
             <img
