@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/jammingca/static/css/main.1721b8ae.chunk.css",
+    "main.js": "/jammingca/static/js/main.a96aa50a.chunk.js",
+    "main.js.map": "/jammingca/static/js/main.a96aa50a.chunk.js.map",
+    "runtime~main.js": "/jammingca/static/js/runtime~main.ba1360b0.js",
+    "runtime~main.js.map": "/jammingca/static/js/runtime~main.ba1360b0.js.map",
+    "static/js/2.e05be4ca.chunk.js": "/jammingca/static/js/2.e05be4ca.chunk.js",
+    "static/js/2.e05be4ca.chunk.js.map": "/jammingca/static/js/2.e05be4ca.chunk.js.map",
+    "index.html": "/jammingca/index.html",
+    "precache-manifest.cc210c776d1df9b4b3237b5655ab5200.js": "/jammingca/precache-manifest.cc210c776d1df9b4b3237b5655ab5200.js",
+    "service-worker.js": "/jammingca/service-worker.js",
+    "static/css/main.1721b8ae.chunk.css.map": "/jammingca/static/css/main.1721b8ae.chunk.css.map",
+    "static/media/App.css": "/jammingca/static/media/background_photo_desktop.37be7357.jpg"
+  }
+}
